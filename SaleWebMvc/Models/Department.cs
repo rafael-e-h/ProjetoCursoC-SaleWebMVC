@@ -1,4 +1,4 @@
-﻿namespace SaleWebMvc.Models
+﻿namespace SalesWebMvc.Models
 {
     public class Department
     {
