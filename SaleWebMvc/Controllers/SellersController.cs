@@ -31,7 +31,7 @@ namespace SalesWebMvc.Controllers
         public IActionResult Create(Seller seller)
         {
             _sellerService.Insert(seller);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index)); //return to index
         }
     }
 }
